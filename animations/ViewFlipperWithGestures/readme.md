@@ -8,6 +8,8 @@ Index
 Summary
 ========
 
+![running sample](./readme_utils/sample.gif)
+
 This project tests ViewFlipper by swapping its animations based on gestures.
 
 A ViewFlipper is added into fragment_main.xml (layout) with four children views.
@@ -37,6 +39,8 @@ _ _ _
 
 Resumen
 =======
+
+![running sample](./readme_utils/sample.gif)
 
 Este proyecto prueba ViewFlipper cambiando sus animaciones según gestos.
 
