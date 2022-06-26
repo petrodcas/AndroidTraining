@@ -33,8 +33,8 @@ class MainFragment : Fragment() {
         gestureHandler.onToTopDetected = getAnimCallback(R.anim.push_bottom_in, R.anim.push_bottom_out, false)
         gestureHandler.onToBottomRightDetected = getAnimCallback(R.anim.push_topleft_in, R.anim.push_topleft_out, true)
         gestureHandler.onToBottomLeftDetected = getAnimCallback(R.anim.push_topright_in, R.anim.push_topright_out, false)
-        gestureHandler.onToTopLeftDetected = getAnimCallback(R.anim.push_bottomright_in, R.anim.push_bottomright_out, true)
-        gestureHandler.onToTopRightDetected = getAnimCallback(R.anim.push_bottomleft_in, R.anim.push_bottomleft_out, false)
+        gestureHandler.onToTopLeftDetected = getAnimCallback(R.anim.push_bottomright_in, R.anim.push_bottomright_out, false)
+        gestureHandler.onToTopRightDetected = getAnimCallback(R.anim.push_bottomleft_in, R.anim.push_bottomleft_out, true)
         // Sets the gestureHandler to manage the motionEvent received by the ViewFlipper
         binding.viewFlipper.setOnTouchListener { _, motionEvent ->
             gestureHandler.onGestureDetection(motionEvent)
