@@ -8,7 +8,7 @@ Index
 Summary
 ========
 
-![running sample](./readme_utils/sample.gif)
+![running sample](./readme_utils/running_sample.gif)
 
 This project tests ViewFlipper by swapping its animations based on gestures.
 
@@ -40,7 +40,7 @@ _ _ _
 Resumen
 =======
 
-![running sample](./readme_utils/sample.gif)
+![running sample](./readme_utils/running_sample.gif)
 
 Este proyecto prueba ViewFlipper cambiando sus animaciones según gestos.
 
